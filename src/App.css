@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  height: 100vh; /* 100% chiều cao của viewport */
+  background-color: #F5F5F5;
+}
+
+/* Style cho navbar nằm bên trái */
+.VerticalNavbar {
+  width: 200px; /* Độ rộng của navbar */
+  background-color: #f8f9fa; /* Màu nền của navbar */
+  border-right: 1px solid #dee2e6; /* Đường viền bên phải của navbar */
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1; /* Chia sẻ phần dư ra của không gian trong flexbox */
+  padding: 20px;
+}

@@ -1,0 +1,40 @@
+Theme: 
+I.Color Palette:
+Primary Color: #4CAF50 (các nút chính và các phần tử quan trọng.)
+Secondary Color: #FF9800 (Orange) (các nút phụ và các yếu tố nhấn mạnh.)
+Background Color: #F5F5F5
+Text Color: #212121
+Accent Color: #03A9F4 (Link, )
+
+Gg-font roboto
+
+Components Style
+* Buttons:
+    * Sử dụng màu xanh lá cây (#4CAF50) cho các nút chính.
+    * Nút phụ có thể sử dụng màu cam (#FF9800).
+    * Nút nhấn mạnh hoặc liên kết có thể sử dụng màu xanh nhạt (#03A9F4).
+    * Bo tròn nhẹ với radius 4px.
+    * Padding khoảng 10px 20px.
+* Inputs:
+    * Border radius: 4px.
+    * Border: 1px solid #CCCCCC.
+    * Padding: 10px.
+    * Focus state: Border chuyển sang màu chủ đạo (#4CAF50).
+* Cards:
+    * Background: #FFFFFF.
+    * Box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1).
+    * Border radius: 8px.
+    * Padding: 16px.
+> icon dùng react-Icon
+Pages:
+
+ LoginPage.js 
+RegisterPage.js
+DashboardPage.js 
+ HealthRecordsPage.js  
+MedicationsPage.js 
+RemindersPage.js 
+SymptomsPage.js 
+CommunityPostsPage.js │ 
+HealthArticlesPage.js 
+NotFoundPage.js

@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@example.com",
+      "password": "password1",
+      "name": "User One",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "name": "Admin User",
+      "role": "admin"
+    }
+  ],
+  "blood": [
+    {
+      "id": 1,
+      "date": "2024-06-15",
+      "level": 120,
+      "time": "10:30",
+      "notes": "Measured after breakfast",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "date": "2024-06-15",
+      "level": 90,
+      "time": "15:45",
+      "notes": "Measured before lunch",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "date": "2024-06-16",
+      "level": 110,
+      "time": "08:00",
+      "notes": "Measured after morning exercise",
+      "userId": 1
+    }
+  ],
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Push-ups",
+      "description": "A basic push-up workout.",
+      "shortDescription": "Push-ups",
+      "difficulty": "Medium",
+      "duration": 10,
+      "reps": 15,
+      "sets": 3,
+      "calories": 50,
+      "videoUrl": "https://www.youtube.com/embed/IODxDxX7oi4"
+    },
+    {
+      "id": 2,
+      "name": "Squats",
+      "description": "A basic squat workout.",
+      "shortDescription": "Squats",
+      "difficulty": "Medium",
+      "duration": 10,
+      "reps": 15,
+      "sets": 3,
+      "calories": 70,
+      "videoUrl": "https://www.youtube.com/embed/IODxDxX7oi4"
+    }
+  ],
+  "todayWorkouts": [
+    {
+      "id": 1,
+      "name": "Push-ups",
+      "description": "A basic push-up workout.",
+      "shortDescription": "Push-ups",
+      "difficulty": "Medium",
+      "duration": 10,
+      "reps": 15,
+      "sets": 3,
+      "calories": 50,
+      "videoUrl": "https://example.com/video.mp4",
+      "date": "2024-06-13"
+    },
+    {
+      "id": 2,
+      "name": "Squats",
+      "description": "A basic squat workout.",
+      "shortDescription": "Squats",
+      "difficulty": "Medium",
+      "duration": 10,
+      "reps": 15,
+      "sets": 3,
+      "calories": 70,
+      "videoUrl": "https://example.com/video.mp4",
+      "date": "2024-06-13"
+    },
+    {
+      "id": 2,
+      "name": "Squats",
+      "description": "A basic squat workout.",
+      "shortDescription": "Squats",
+      "difficulty": "Medium",
+      "duration": 10,
+      "reps": 15,
+      "sets": 3,
+      "calories": 70,
+      "videoUrl": "https://www.youtube.com/embed/IODxDxX7oi4",
+      "date": "2024-06-13"
+    },
+    {
+      "id": 2,
+      "name": "Squats",
+      "description": "A basic squat workout.",
+      "shortDescription": "Squats",
+      "difficulty": "Medium",
+      "duration": 10,
+      "reps": 15,
+      "sets": 3,
+      "calories": 70,
+      "videoUrl": "https://www.youtube.com/embed/IODxDxX7oi4",
+      "date": "2024-06-13"
+    }
+  ],
+  "healthArticles": [
+    {
+      "id": 1,
+      "title": "Stay Hydrated",
+      "content": "Drinking enough water is essential for your overall health."
+    },
+    {
+      "id": 2,
+      "title": "Regular Exercise",
+      "content": "Engage in regular physical activity to stay fit and healthy."
+    },
+    {
+      "id": 3,
+      "title": "Balanced Diet",
+      "content": "Eat a balanced diet with a variety of nutrients."
+    }
+  ]
+}
